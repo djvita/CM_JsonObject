@@ -23,9 +23,19 @@
 @property (strong, nonatomic) IBOutlet UILabel *lblHumidity;
 
 
-@property (strong, nonatomic) IBOutlet UILabel *lblWind;
-//Tarea
 
+//Tarea5
+@property (strong, nonatomic) IBOutlet UILabel *lblWind;
+@property (strong, nonatomic) IBOutlet UILabel *lblWinddeg;
+@property (strong, nonatomic) IBOutlet UILabel *lblLat;
+@property (strong, nonatomic) IBOutlet UILabel *lblLon;
+
+@property (strong, nonatomic) IBOutlet UILabel *lblCountry;
+
+@property (strong, nonatomic) IBOutlet UILabel *lblsunrise;
+@property (strong, nonatomic) IBOutlet UILabel *lblSunset;
+
+@property (strong, nonatomic) IBOutlet UILabel *lblDescription;
 
 
 

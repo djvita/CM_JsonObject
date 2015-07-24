@@ -50,8 +50,22 @@
     self.lblPressure.text   = [NSString stringWithFormat:@"%d", mWeatherObject.main.pressure];
     self.lblHumidity.text   = [NSString stringWithFormat:@"%d", mWeatherObject.main.humidity];
     
-    //Tarea
-    self.lblWind.text       = [NSString stringWithFormat:@"%f", mWeatherObject.wind.speed];
+    //Tarea 5
+    self.lblWind.text         = [NSString stringWithFormat:@"%f", mWeatherObject.wind.speed];
+    self.lblWinddeg.text      = [NSString stringWithFormat:@"%f", mWeatherObject.wind.deg];
+    
+    self.lblLat.text          = [NSString stringWithFormat:@"%f", mWeatherObject.coord.lat];
+    self.lblLon.text          = [NSString stringWithFormat:@"%f", mWeatherObject.coord.lon];
+    
+    self.lblsunrise.text      =  [NSString stringWithFormat:@"%f", mWeatherObject.Sys.sunrise];
+    self.lblSunset.text      =  [NSString stringWithFormat:@"%f", mWeatherObject.Sys.sunset];
+    self.lblCountry.text      =  [NSString stringWithFormat:@"%@", mWeatherObject.Sys.country];
+    
+   
+
+    
+    
+    
     
 }
 @end

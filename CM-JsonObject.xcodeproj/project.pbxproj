@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		074B8C2E1B61B97200348222 /* Wind.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B8C2D1B61B97200348222 /* Wind.m */; };
+		074B8C311B61DED100348222 /* Sys.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B8C301B61DED100348222 /* Sys.m */; };
 		D19A6B9E1B5A999E00A0C88A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A6B9D1B5A999E00A0C88A /* main.m */; };
 		D19A6BA11B5A999E00A0C88A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A6BA01B5A999E00A0C88A /* AppDelegate.m */; };
 		D19A6BA41B5A999E00A0C88A /* CM_JsonObject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D19A6BA21B5A999E00A0C88A /* CM_JsonObject.xcdatamodeld */; };
@@ -59,6 +60,8 @@
 /* Begin PBXFileReference section */
 		074B8C2C1B61B97200348222 /* Wind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wind.h; sourceTree = "<group>"; };
 		074B8C2D1B61B97200348222 /* Wind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wind.m; sourceTree = "<group>"; };
+		074B8C2F1B61DED100348222 /* Sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sys.h; sourceTree = "<group>"; };
+		074B8C301B61DED100348222 /* Sys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sys.m; sourceTree = "<group>"; };
 		D19A6B981B5A999E00A0C88A /* CM-JsonObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CM-JsonObject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19A6B9C1B5A999E00A0C88A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D19A6B9D1B5A999E00A0C88A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -244,6 +247,8 @@
 				074B8C2D1B61B97200348222 /* Wind.m */,
 				D19A6C221B5AAD1600A0C88A /* WeatherDetail.h */,
 				D19A6C231B5AAD1600A0C88A /* WeatherDetail.m */,
+				074B8C2F1B61DED100348222 /* Sys.h */,
+				074B8C301B61DED100348222 /* Sys.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -486,6 +491,7 @@
 				D19A6BE41B5A9A8800A0C88A /* SBJsonStreamParser.m in Sources */,
 				D19A6C181B5A9B0D00A0C88A /* OCMapperConfig.m in Sources */,
 				D19A6C1B1B5A9E4700A0C88A /* WeatherObject.m in Sources */,
+				074B8C311B61DED100348222 /* Sys.m in Sources */,
 				D19A6C271B5AAE4C00A0C88A /* Weather.m in Sources */,
 				D19A6BEB1B5A9A8800A0C88A /* SBJsonTokeniser.m in Sources */,
 				D19A6BE21B5A9A8800A0C88A /* NSObject+SBJson.m in Sources */,
