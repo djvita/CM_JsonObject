@@ -12,10 +12,17 @@
 #import "WeatherDetail.h"
 #import "Weather.h"
 
+#import "Wind.h" //tarea5
+
 @interface WeatherObject : NSObject
 @property (nonatomic) Coord         *coord;
 @property (nonatomic) int           ID;
 @property (nonatomic) NSString      *name;
 @property (nonatomic) MainObject    *main;
 @property (nonatomic) Weather       *weather;
+
+//tarea5
+@property (nonatomic) Wind           *wind;
+
+
 @end

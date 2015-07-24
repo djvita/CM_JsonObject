@@ -22,6 +22,13 @@
 @property (strong, nonatomic) IBOutlet UILabel *lblPressure;
 @property (strong, nonatomic) IBOutlet UILabel *lblHumidity;
 
+
+@property (strong, nonatomic) IBOutlet UILabel *lblWind;
+//Tarea
+
+
+
+
 //Actions
 - (IBAction)btnGetDataPressed:(id)sender;
 

@@ -7,6 +7,8 @@
 //
 
 #import "Start.h"
+
+
 #define nUagLat 20.695306
 #define nUagLng -103.418190
 
@@ -32,6 +34,8 @@
     
     WeatherDetail *weatherDetail    = [weather getWeatherDetail:0];
     print(NSLog(@"icon %@", weatherDetail.icon))
+    
+
 }
 
 - (IBAction)btnGetDataPressed:(id)sender {
@@ -45,5 +49,9 @@
     self.lblTempMin.text    = [NSString stringWithFormat:@"%.2f", mWeatherObject.main.temp_min - 273.15];
     self.lblPressure.text   = [NSString stringWithFormat:@"%d", mWeatherObject.main.pressure];
     self.lblHumidity.text   = [NSString stringWithFormat:@"%d", mWeatherObject.main.humidity];
+    
+    //Tarea
+    self.lblWind.text       = [NSString stringWithFormat:@"%f", mWeatherObject.wind.speed];
+    
 }
 @end
